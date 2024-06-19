@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  #waterSupplyList {
+    margin-top: 20px;
+  }
+  
+  .waterSupplyItem {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .waterSupplyItem:last-child {
+    border-bottom: none;
+  }
+  
+  .date {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .time {
+    color: #555;
+  }
+  
+  /* water.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
